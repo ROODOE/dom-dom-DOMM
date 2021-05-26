@@ -1,0 +1,31 @@
+#container {
+    display: flex;
+}
+
+
+button {
+    cursor: pointer;
+    align-items: center;
+}
+
+span {
+    display: inline-flex;
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+span:hover {
+    color: white;
+}
+span::before:hover {
+    visibility: hidden;
+}
+span::after:hover {
+    visibility: hidden;
+}
+
+
